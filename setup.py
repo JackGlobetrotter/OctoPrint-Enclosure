@@ -33,9 +33,9 @@ plugin_url = "https://github.com/vitormhenrique/OctoPrint-Enclosure"
 plugin_license = "AGPLv3"
 
 # Any additional requirements besides OctoPrint should be listed here
-plugin_requires = ["RPi.GPIO>=0.6.5", "requests>=2.7", "smbus2>=0.3.0", "gpiozero==1.6.2", "RPi.bme280", "bme680"]
+plugin_requires = ["RP64.GPIO==0.0.3", "requests>=2.7", "smbus2>=0.3.0", "gpiozero==1.6.2", "RPi.bme280", "bme680"]
 
-additional_setup_parameters = {}
+additional_setup_parameters = {"dependency_links": ["git+https://github.com/Angoosh/RockPro64-RP64.GPIO.git#egg=RP64.GPIO"]}
 
 #additional_setup_parameters = {"dependency_links": ["git://github.com/adafruit/Adafruit_Python_DHT.git#egg=adafruit_python_dht"]}
 

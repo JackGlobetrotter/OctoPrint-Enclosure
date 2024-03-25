@@ -55,7 +55,7 @@ The following methods are public:
 """
 
 import time
-import RPi.GPIO as GPIO
+import RP64.GPIO as GPIO
 
 
 class LEDStrip:
